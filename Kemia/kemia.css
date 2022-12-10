@@ -1,11 +1,11 @@
 body {
     background-color: wheat;
+    
 }
 html {
     scroll-behavior: smooth;
 }
 table {
-    margin-left: auto;
     margin-right: auto;
 }
 a:link { 
@@ -24,8 +24,9 @@ a:hover { text-decoration: none; }
 
 
 a:active { text-decoration: none; }
+
 th {
-    width: 70px;
+    width: 200px;
     height: 50px;
 }
 .elem-s {
@@ -49,6 +50,7 @@ th {
     margin: 1px;
     font-size: 10px;
     float: left;
+    margin-bottom: 5px;
 }
 .rendszam {
     color: cyan;
@@ -69,6 +71,7 @@ th {
     font-size: 20px;
     text-align: center;
     margin-bottom: 2px;
+    margin-top: 2px;
 }
 .rendszam1 {
     color: black;
@@ -76,4 +79,13 @@ th {
     font-size: 10px;
     float: left;
     
+}
+
+.video {
+    border-radius: 25px;
+    float: right;
+    margin-right: 50px;
+}
+#hidrogen {
+    margin-left: 50px;
 }
